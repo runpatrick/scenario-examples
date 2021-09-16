@@ -1,3 +1,4 @@
 npm install request
 npm install randomstring
-node multiply.js
+npm install forever -g
+forever start multiply.js
