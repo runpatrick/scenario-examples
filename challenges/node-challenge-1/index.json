@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npm install request"
+    "start": "node multiply.js"
   },
   "keywords": [],
   "author": "",
