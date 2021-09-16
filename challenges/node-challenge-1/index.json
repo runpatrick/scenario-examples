@@ -33,6 +33,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "nodejs:12",
+    "port": 3000
   }
 }
