@@ -42,7 +42,7 @@
   }
  },
  "environment": {
-  "uilayout": "vscode-terminal-split"
+  "uilayout": "terminal-iframe"
  },
  "backend": {
   "imageid": "nodejs:12"
