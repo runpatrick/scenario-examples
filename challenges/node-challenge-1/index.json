@@ -9,7 +9,8 @@
     "http": "*",
     "url": "*",
     "dgram": "*",
-    "randomstring": "*"
+    "randomstring": "*",
+    "forever": "*"
   },
   "type": "challenge@0.7",
   "title": "Challenge Example - Node.js",
