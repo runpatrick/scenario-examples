@@ -14,7 +14,8 @@
   "request": "^2.88.0",
   "http": "*",
   "url": "*",
-  "dgram": "*"
+  "dgram": "*",
+  "forever": "*"
  },
  "details": {
   "steps": [
