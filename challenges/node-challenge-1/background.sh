@@ -83,7 +83,7 @@ var server = http.createServer(function(request, response) {
 server.listen(3000);
 
 EOF
-
+node /root/multiply.js
 cat << 'EOF' > /opt/test.js
 const req = require('request');
 var http = require('http');
