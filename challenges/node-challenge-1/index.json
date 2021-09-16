@@ -6,11 +6,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http": "0.0.1-security",
-    "url": "0.11.0",
-    "node-random-name": "1.0.1",
-    "kahoot.js-updated": "2.2.2",
-    "forever": "^1.0"
+    "http": "*",
+    "url": "*",
+    'dgram': '*'
   },
   "type": "challenge@0.7",
   "title": "Challenge Example - Node.js",
