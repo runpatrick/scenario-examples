@@ -13,7 +13,6 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
       "background": "background.sh"
     },
     "finish": {
@@ -30,7 +29,7 @@
     }
   },
   "environment": {
-    "hidesidebar": true,
+    "hidesidebar": false,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
