@@ -1,4 +1,4 @@
-node multiply.js
+node /root/multiply.js
 
 cat << 'EOF' > /root/multiply.js
 const req = require('request');
