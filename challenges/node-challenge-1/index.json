@@ -1,50 +1,43 @@
 {
- "type": "challenge@0.7",
- "title": "Challenge Example - Node.js",
- "description": "",
- "difficulty": "Beginner",
- "time": "60 minutes",
- "scripts": {
-  "start": "node /root/multiply.js"
- },
- "keywords": [],
- "author": "",
- "license": "ISC",
- "dependencies": {
-  "request": "^2.88.0",
-  "http": "*",
-  "url": "*",
-  "dgram": "*"
- },
- "details": {
-  "steps": [
-   {
-    "title": "Task 1 - Fix Tests",
-    "text": "1_task.md",
-    "verify": "1_verify.sh"
-   }
-  ],
-  "intro": {
-   "background": "background.sh",
-   "code": "execute.sh"
+  "type": "challenge@0.7",
+  "title": "Challenge Example - Node.js",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "scripts": {
+    "start": "node /root/multiply.js"
   },
-  "finish": {
-   "text": "finish.md"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "http": "*",
+    "url": "*",
+    "dgram": "*"
   },
-  "assets": {
-   "client": [
-    {
-     "file": "cheat",
-     "target": "/usr/local/bin/",
-     "chmod": "+x"
+  "details": {
+    "intro": {
+      "background": "background.sh",
+      "code": "execute.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
     }
-   ]
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
   }
- },
- "environment": {
-  "uilayout": "terminal-iframe"
- },
- "backend": {
-  "imageid": "nodejs:12"
- }
 }
