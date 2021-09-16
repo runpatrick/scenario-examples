@@ -1,3 +1,4 @@
 npm install request
 npm install randomstring
-forever start multiply.js
+npm install -g nodemon 
+nodemon multiply.js
