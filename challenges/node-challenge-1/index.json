@@ -9,7 +9,7 @@
     "http": "*",
     "url": "*",
     "dgram": "*",
-    "randomstring": "*",
+    "randomstring": "1.2.1",
     "forever": "*"
   },
   "type": "challenge@0.7",
