@@ -81,27 +81,7 @@ var server = http.createServer(function(request, response) {
 server.listen(3000);
 
 EOF
-clear
 
-echo -e "Preparing the environment ..."
-
-show_progress()
-{
-  echo -n "Starting"
-  local -r pid="${1}"
-  local -r delay='0.75'
-  local spinstr='\|/-'
-  local temp
-  printf "    \b\b\b\b"
-  until [ -f /tmp/kc-scenario-done ]; do
-  node /root/multiply.js
-  done
-  printf "    \b\b\b\b"
-  echo ""
-  echo "Configured"
-}
-
-show_progress
 cat << 'EOF' > /opt/test.js
 const req = require('request');
 var http = require('http');
