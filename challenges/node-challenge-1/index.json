@@ -6,9 +6,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http": "0.0.1-security",
-    "url": "0.11.0",
-    "dgram": "*"
+    "http": "*",
+    "url": "*",
+    "dgram": "*",
+    "randomstring": "*"
   },
   "type": "challenge@0.7",
   "title": "Challenge Example - Node.js",
