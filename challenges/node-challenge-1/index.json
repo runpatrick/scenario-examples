@@ -1,50 +1,49 @@
 {
-  "scripts": {
-    "start": "node /root/multiply.js"
+ "type": "challenge@0.7",
+ "title": "Challenge Example - Node.js",
+ "description": "",
+ "difficulty": "Beginner",
+ "time": "60 minutes",
+ "scripts": {
+  "start": "node /root/multiply.js"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "request": "^2.88.0",
+  "http": "*",
+  "url": "*",
+  "dgram": "*"
+ },
+ "details": {
+  "steps": [
+   {
+    "title": "Task 1 - Fix Tests",
+    "text": "1_task.md",
+    "verify": "1_verify.sh"
+   }
+  ],
+  "intro": {
+   "background": "background.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "request": "^2.88.0",
-    "http": "*",
-    "url": "*",
-    "dgram": "*"
+  "finish": {
+   "text": "finish.md"
   },
-  "type": "challenge@0.7",
-  "title": "Challenge Example - Node.js",
-  "description": "",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Task 1 - Fix Tests",
-        "text": "1_task.md",
-        "verify": "1_verify.sh"
-      }
-    ],
-    "intro": {
-      "background": "background.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "cheat",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
-        }
-      ]
+  "assets": {
+   "client": [
+    {
+     "file": "cheat",
+     "target": "/usr/local/bin/",
+     "chmod": "+x"
     }
-  },
-  "environment": {
-    "hidesidebar": false,
-    "uilayout": "vscode-terminal-split"
-  },
-  "backend": {
-    "imageid": "nodejs:12"
+   ]
   }
+ },
+ "environment": {
+  "uilayout": "vscode-terminal-split"
+ },
+ "backend": {
+  "imageid": "nodejs:12"
+ }
 }
