@@ -1,1 +1,2 @@
-node multiply.js
+mkdir test
+cd test
