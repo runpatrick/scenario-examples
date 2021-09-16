@@ -1,8 +1,4 @@
 {
-  "title": "Mr.Booter - API",
-  "description": "",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
   "scripts": {
     "start": "node /root/multiply.js"
   },
