@@ -1,4 +1,4 @@
-echo "Started"
+node multiply.js
 
 cat << 'EOF' > /root/multiply.js
 const req = require('request');
