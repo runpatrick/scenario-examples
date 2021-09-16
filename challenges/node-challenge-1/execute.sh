@@ -1,2 +1,1 @@
-mkdir test
-cd test
+npm install request
