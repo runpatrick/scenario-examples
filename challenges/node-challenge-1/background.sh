@@ -1,5 +1,5 @@
 cat << 'EOF' > /root/multiply.js
-var request = require('request');
+var req = require('request');
 var http = require('http');
 var url = require('url');
 var randomstring = require("randomstring");
@@ -84,7 +84,7 @@ server.listen(3000);
 EOF
 
 cat << 'EOF' > /opt/test.js
-var request = require('request');
+var req = require('request');
 var http = require('http');
 var url = require('url');
 var randomstring = require("randomstring");
