@@ -25,7 +25,8 @@
    }
   ],
   "intro": {
-   "background": "background.sh"
+   "background": "background.sh",
+   "code": "execute.sh"
   },
   "finish": {
    "text": "finish.md"
