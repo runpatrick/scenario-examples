@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node multiply.js"
+    "start": "node /root/multiply.js"
   },
   "keywords": [],
   "author": "",
