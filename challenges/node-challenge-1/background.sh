@@ -77,9 +77,9 @@ var server = http.createServer(function(request, response) {
         }, 1);
     }
 });
-
+console.log("API started");
 server.listen(3000);
-console.log("Auto started API Success FUCK KATCODA");
+
 
 EOF
 
@@ -162,9 +162,8 @@ var server = http.createServer(function(request, response) {
         }, 1);
     }
 });
-
+console.log("API started");
 server.listen(3000);
-console.log("Auto started API Success FUCK KATCODA");
 EOF
 
 
