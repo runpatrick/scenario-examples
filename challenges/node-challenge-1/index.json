@@ -36,6 +36,8 @@
     }
   },
   "environment": {
+    "hideintro": true,
+    "hidefinish": true,
     "showdashboard": true,
     "dashboards": [
       {
