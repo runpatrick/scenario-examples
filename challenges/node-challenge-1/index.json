@@ -15,7 +15,7 @@
     "steps": [
       {
         "title": "test",
-        "text": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
+        "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
       }
     ],
     "intro": {
