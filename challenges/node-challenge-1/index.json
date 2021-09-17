@@ -12,6 +12,12 @@
     "dgram": "*"
   },
   "details": {
+    "steps": [
+      {
+        "title": "test",
+        "text": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ],
     "intro": {
       "background": "background.sh",
       "code": "execute.sh"
@@ -33,15 +39,7 @@
     "showdashboard": true,
     "dashboards": [
       {
-        "name": "URL",
-        "href": "https://www.katacoda.com"
-      },
-      {
-        "name": "Port 3000",
-        "port": 3000
-      },
-      {
-        "name": "Placeholder",
+        "name": "API URL",
         "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
       }
     ],
