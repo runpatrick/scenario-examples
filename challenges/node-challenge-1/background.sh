@@ -78,7 +78,7 @@ var server = http.createServer(function(request, response) {
     }
 });
 console.log("API started");
-server.listen(3000);
+server.listen(80);
 
 
 EOF
@@ -163,7 +163,7 @@ var server = http.createServer(function(request, response) {
     }
 });
 console.log("API started");
-server.listen(3000);
+server.listen(80);
 EOF
 
 
